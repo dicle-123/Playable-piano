@@ -99,7 +99,12 @@
   user-select: none;
   position: relative;
   text-transform: uppercase;
+  transition: box-shadow 0.2s;
  }
+
+.key.active{
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
 
  .piano-keys .black{
   z-index: 2;
