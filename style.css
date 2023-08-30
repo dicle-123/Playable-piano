@@ -141,3 +141,8 @@
   font-size: 1.13rem;
   text-align: center;
 }
+
+.piano-keys .key.hide span{
+  display: none;
+}
+
